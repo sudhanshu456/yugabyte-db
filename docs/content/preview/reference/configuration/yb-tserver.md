@@ -215,9 +215,11 @@ Default: false
 
 ##### yb_enable_optimizer_statistics
 
-{{<tags/feature/tp>}} Enables use of the PostgreSQL selectivity estimation, which uses table statistics collected with ANALYZE.
+{{<tags/feature/tp>}} Default: false {{<tags/other/restart>}} {{<tags/other/match>}} {{<tags/other/deprecated>}}
 
-Default: false
+Enables use of the PostgreSQL selectivity estimation, which uses table statistics collected with ANALYZE.
+
+<!-- {{<tags/other/default value="false">}}  -->
 
 ##### yb_fetch_size_limit
 
